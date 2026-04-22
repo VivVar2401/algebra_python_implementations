@@ -1,2 +1,10 @@
-# algebra_python_implementations
-A repository for Python Scripts exploring the capabilities of the base language and external sources in implementing various Algebraic and Differential concepts and algorithms. Currently exploring group, ring and field theory and their respective implementations in Python.
+**Implementation of Various Algorithms with a Naive Brute Force Approach**
+
+Group Checker
+- Utilises 4 checkers consisting of nested loops:
+> Closure: O(N^3)
+> Identity: O(N^2)
+> Inverse: O(N^2)
+> Associativty: O(N^3)
+> Commutativity for Abelian: O(N^2)
+- Terrible time complexity, but demonstrates the naive computational understanding of these mathematical concepts.
