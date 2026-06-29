@@ -2,6 +2,9 @@ from asteval import Interpreter
 aeval = Interpreter()
 
 def subg_checker(group, subgroup, oper):
+    if not subgroup:
+        print("Not a subgroup")
+        return
     
     for i in subgroup:
         if i not in group:
@@ -23,3 +26,4 @@ def main():
         subg_checker(n, subg, op)
     except:
         print("Ensure your input function follows proper mathematical syntax")
+
